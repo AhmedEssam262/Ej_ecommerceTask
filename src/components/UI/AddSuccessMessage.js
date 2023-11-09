@@ -14,6 +14,7 @@ function AddSuccessMessage(props) {
         <img
           style={{ width: "20px" }}
           src={"../../images/success-green-check-mark-icon.png"}
+          alt="success"
         />
       </div>
     </div>

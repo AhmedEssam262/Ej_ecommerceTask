@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Add this line for Bootstrap JavaScript
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../../App.css";
 import { Link } from "react-router-dom";
 

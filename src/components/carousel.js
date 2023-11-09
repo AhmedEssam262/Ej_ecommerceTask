@@ -24,7 +24,8 @@ function Carousel() {
               src="images/inner-peace.png"
               className="py-4"
               style={{ width: "100%" }}
-            ></img>
+              alt="img"
+            />
           </div>
         </div>
 
@@ -34,8 +35,9 @@ function Carousel() {
               src="images/inner2.png"
               className="py-4"
               style={{ width: "100%" }}
-            ></img>
-            <img src="images/dots.png" class="py-4"></img>
+              alt="img"
+            />
+            <img src="images/dots.png" class="py-4" alt="img"/>
           </div>
         </div>
       </div>

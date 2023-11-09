@@ -1,7 +1,5 @@
 import React from "react";
 import AddSuccessMessage from "./AddSuccessMessage";
-
-// Import Bootstrap JavaScript (place this in your main JavaScript/React file)
 function ConfirmationButton() {
   return (
     <div>

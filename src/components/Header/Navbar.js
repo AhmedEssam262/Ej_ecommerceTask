@@ -11,6 +11,7 @@ function Navbar() {
           className="logo"
           src="images/Meubel House_Logos-05.png"
           style={{ display: "inline" }}
+          alt="img"
         ></img>
         <Link
           className="navbar-brand"
@@ -84,22 +85,22 @@ function Navbar() {
             <ul className="flexme mobile-nav2 navbar-nav  me-auto mb-2 mb-lg-0">
               <li className="nav-item my-auto">
                 <a className=" mx-4" href="#">
-                  <img className="ico" src="images/Vector1.png"></img>
+                  <img className="ico" src="images/Vector1.png" alt="img"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
                 <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector2.png"></img>
+                  <img className="ico" src="images/Vector2.png" alt="image"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
                 <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector3.png"></img>
+                  <img className="ico" src="images/Vector3.png" alt="img"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
                 <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector4.png"></img>
+                  <img className="ico" src="images/Vector4.png" alt="img"/>
                 </a>
               </li>
             </ul>

@@ -6,6 +6,7 @@ function NewArrival() {
       <div style={{ width: "100%" }}>
         <div className="card card-overlay rounded-0" style={{ width: "100%" }}>
           <img
+            alt="image"
             src="images/scandinavian-interior-mockup-wall-decal-background 1.png"
             className="card-img"
             style={{ border: "none" }}
