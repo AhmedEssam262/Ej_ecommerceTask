@@ -1,0 +1,13 @@
+.productFlag{
+    color: white;
+    background-color: #B88E2F;
+    border-radius: 5px;
+    text-align: center;
+}
+.inputElement{
+    height: auto;
+
+    &:focus{
+        box-shadow: 0 0  0.8rem 0.15rem #B88E2F;
+    }
+}
