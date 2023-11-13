@@ -20,8 +20,9 @@ function EditForm(props) {
   const [hasLocalImage, setHasLocalImage] = useState(false);
   const [imageUpload, setImageUpload] = useState(null);
   const [imageUrls, setImageUrls] = useState([]);
-  const [myTimeOut2, setMyTimeOut2] = useState(true);
+  const [myTimeOut, setMyTimeOut] = useState(true);
   const [myImage, setMyImage] = useState();
+  //this function uploads image to firebase
   const uploadFile = () => {
     if (imageUpload == null) return;
     const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
@@ -33,10 +34,11 @@ function EditForm(props) {
       });
     });
   };
+  //to upload image from Firebase or mockapi
   {
-    myTimeOut2 &&
+    myTimeOut &&
       setTimeout(() => {
-        setMyTimeOut2(false);
+        setMyTimeOut(false);
         if (props.data.hasLocalImage) {
           setMyImage(props.data.imageUrl);
         } else {
@@ -44,6 +46,7 @@ function EditForm(props) {
         }
       }, [600]);
   }
+  //set viewed image to image from firebase if we uploaded an image
   useEffect(() => {
     setMyImage(imageUrls[0]);
   }, [imageUrls]);
@@ -82,6 +85,7 @@ function EditForm(props) {
   }
   return (
     <div className={"container my-5"}>
+      {/* show message on adding or updating the product image */}
       {AddMessage && (
         <AddSuccessMessage message="Product is added or updated Successfully." />
       )}
