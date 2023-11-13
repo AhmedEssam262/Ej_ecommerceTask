@@ -4,9 +4,9 @@ import axios from "axios";
 import AddSuccessMessage from "../UI/AddSuccessMessage";
 import "../../App.css";
 import classes from "./ShowProducts.module.css";
-
 function ShowProducts(props) {
   const [products, setProducts] = useState(props.data.content);
+  // this use effect is important as without it --> when we refresh dashboard, we can't access our products 
   useEffect(() => {
     setProducts(props.data.content);
   });

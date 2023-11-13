@@ -15,9 +15,9 @@ function Home(props) {
       <Rooms />
       <Products data={props.data} />
       <Carousel />
-      <br/>
+      <br />
       <Furniture />
-      <hr/>
+      <hr />
       <Footer />
       <Copyrights />
     </div>

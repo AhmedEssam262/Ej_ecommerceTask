@@ -8,7 +8,6 @@ import { storage } from "../../firebase";
 import { v4 } from "uuid";
 import AddSuccessMessage from "../UI/AddSuccessMessage";
 import "../../App.css";
-
 function EditForm(props) {
   const linkRef = useRef();
   const [nameState, setNameState] = useState();
@@ -34,7 +33,7 @@ function EditForm(props) {
       });
     });
   };
-  //to upload image from Firebase or mockapi
+  //to setMyImage from Firebase or mockapi
   {
     myTimeOut &&
       setTimeout(() => {
@@ -47,6 +46,7 @@ function EditForm(props) {
       }, [600]);
   }
   //set viewed image to image from firebase if we uploaded an image
+  //we access imageeUrls[0] as imageUrls accepts array of images
   useEffect(() => {
     setMyImage(imageUrls[0]);
   }, [imageUrls]);
@@ -89,7 +89,6 @@ function EditForm(props) {
       {AddMessage && (
         <AddSuccessMessage message="Product is added or updated Successfully." />
       )}
-
       <div className="input-group mb-3">
         <div className={"row w-100 justify-content-center"}>
           <div className="col-xl-2 col-6 input-group-prepend">
@@ -112,7 +111,6 @@ function EditForm(props) {
           </div>
         </div>
       </div>
-
       <div className={"input-group mb-3"}>
         <div
           className={
@@ -229,9 +227,7 @@ function EditForm(props) {
           </div>
         </div>
       </div>
-
       <br />
-
       <div className="input-group mb-3">
         <div
           className={
