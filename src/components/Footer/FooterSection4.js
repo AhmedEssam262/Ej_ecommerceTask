@@ -13,7 +13,7 @@ function FooterSection4() {
                 style={{ color: "#9F9F9F" }}
                 className="nav-link active  mb-4 "
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 Newsletter
               </a>

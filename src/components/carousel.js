@@ -12,7 +12,7 @@ function Carousel() {
               Our designer already made a lot of beautiful prototipe of rooms
               that inspire you
             </h6>
-            <a href="#" className="btn btn-danger mt-3 mb-sm-5 mt-5">
+            <a href="/" className="btn btn-danger mt-3 mb-sm-5 mt-5">
               Explore More
             </a>
           </div>
@@ -24,7 +24,7 @@ function Carousel() {
               src="images/inner-peace.png"
               className="py-4"
               style={{ width: "100%" }}
-              alt="img"
+              alt="1"
             />
           </div>
         </div>
@@ -35,9 +35,9 @@ function Carousel() {
               src="images/inner2.png"
               className="py-4"
               style={{ width: "100%" }}
-              alt="img"
+              alt="2"
             />
-            <img src="images/dots.png" class="py-4" alt="img"/>
+            <img src="images/dots.png" class="py-4" alt="3"/>
           </div>
         </div>
       </div>

@@ -10,8 +10,8 @@ function Navbar() {
         <img
           className="logo"
           src="images/Meubel House_Logos-05.png"
-          style={{ display: "inline" }}
-          alt="img"
+          style={{ display: "inline" ,width:50,height:30  }}
+          alt="1"
         ></img>
         <Link
           className="navbar-brand"
@@ -59,12 +59,12 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active me-4" href="#">
+                <a className="nav-link active me-4" href="/">
                   Shop
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active me-4" href="#">
+                <a className="nav-link active me-4" href="/">
                   About
                 </a>
               </li>
@@ -72,7 +72,7 @@ function Navbar() {
                 <Link
                   className="nav-link active me-4"
                   aria-current="page"
-                  to="/contact"
+                  to="/"
                 >
                   Contact
                 </Link>
@@ -84,23 +84,23 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="flexme mobile-nav2 navbar-nav  me-auto mb-2 mb-lg-0">
               <li className="nav-item my-auto">
-                <a className=" mx-4" href="#">
-                  <img className="ico" src="images/Vector1.png" alt="img"/>
+                <a className=" mx-4" href="/">
+                  <img className="ico" src="images/Vector1.png" alt="2"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
-                <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector2.png" alt="image"/>
+                <a className="mx-4" href="/">
+                  <img className="ico" src="images/Vector2.png" alt="3"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
-                <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector3.png" alt="img"/>
+                <a className="mx-4" href="/">
+                  <img className="ico" src="images/Vector3.png" alt="4"/>
                 </a>
               </li>
               <li className="nav-item my-auto">
-                <a className="mx-4" href="#">
-                  <img className="ico" src="images/Vector4.png" alt="img"/>
+                <a className="mx-4" href="/">
+                  <img className="ico" src="images/Vector4.png" alt="5"/>
                 </a>
               </li>
             </ul>

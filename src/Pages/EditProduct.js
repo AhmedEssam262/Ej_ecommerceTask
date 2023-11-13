@@ -2,7 +2,6 @@
 import Copyrights from "../components/Copyrights";
 import EditForm from "../components/Dashboard/EditForm";
 import { useParams } from "react-router-dom";
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Header from "../components/Header/Header";
 import {useEffect, useState} from "react";
 import axios from "axios";

@@ -11,7 +11,7 @@ function FooterSection3() {
                 style={{ color: "#9F9F9F" }}
                 className="nav-link active mx-xl-2 mb-4 "
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 Help
               </a>
@@ -20,18 +20,18 @@ function FooterSection3() {
               <a
                 className="nav-link active mx-xl-2 mb-4"
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 Payment Options
               </a>
             </li>
             <li className="links nav-item">
-              <a className="nav-link active mx-xl-2 mb-4" href="#">
+              <a className="nav-link active mx-xl-2 mb-4" href="/">
                 Returns
               </a>
             </li>
             <li className="links nav-item">
-              <a className="nav-link active mx-xl-2 mb-4" href="#">
+              <a className="nav-link active mx-xl-2 mb-4" href="/">
                 Privacy Policies
               </a>
             </li>

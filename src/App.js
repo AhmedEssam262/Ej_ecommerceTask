@@ -3,7 +3,6 @@ import Home from "./Pages/Home";
 import Dashboard from "./Pages/Dashboard";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Contact from "./Pages/Contact";
 import AddNewProduct from "./Pages/AddNewProduct";
 import EditProduct from "./Pages/EditProduct";
 import "./App.css";
@@ -60,7 +59,6 @@ function App() {
             path="dashboard"
             element={<Dashboard data={{ content, status }} />}
           />
-          <Route path="contact" element={<Contact />} />
           <Route path="card" element={<Card />} />
           <Route path="dashboard/edit/:id" element={<EditProduct />}></Route>
         </Routes>

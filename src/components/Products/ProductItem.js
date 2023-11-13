@@ -8,7 +8,7 @@ function ProductItem(props) {
     <div className={"prod"}>
       <div style={{ backgroundColor: "#F4F5F7", position: "relative" }}>
         <div className="wrapper">
-          <img className="play" src="images/Label.png" alt="Label Image" />
+          <img className="play" src="images/Label.png" alt="Label" />
           <div
             className={"playNumber"}
             style={{ color: "white" }}
@@ -21,7 +21,7 @@ function ProductItem(props) {
                 ? props.product.imageUrl
                 : props.product.avatar
             }
-            alt="Product Image"
+            alt="Product"
           />
         </div>
         <div>

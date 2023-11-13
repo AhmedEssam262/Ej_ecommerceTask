@@ -45,12 +45,12 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active me-4" href="#">
+                <a className="nav-link active me-4" href="/">
                   Shop
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active me-4" href="#">
+                <a className="nav-link active me-4" href="/">
                   About
                 </a>
               </li>
@@ -58,7 +58,7 @@ function Header() {
                 <Link
                   className="nav-link active me-4"
                   aria-current="page"
-                  to="/contact"
+                  to="/"
                 >
                   Contact
                 </Link>

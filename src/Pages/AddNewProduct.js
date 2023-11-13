@@ -1,8 +1,4 @@
-import Navbar from "../components/Header/Navbar";
-import Footer from "../components/Footer/Footer";
 import Copyrights from "../components/Copyrights";
-import EditForm from "../components/Dashboard/EditForm";
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Header from "../components/Header/Header";
 import '../App.css';
 import AddForm from "../components/Dashboard/AddForm";

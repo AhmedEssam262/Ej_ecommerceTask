@@ -16,14 +16,14 @@ function Furniture() {
             <div className="col-xl-2">
               <img
                 src="images/f1.png"
-                alt="Image 1"
+                alt=" 1"
                 className="img1 img-fluid mb-sm-3"
               ></img>
             </div>
             <div className="col-xl-10">
               <img
                 src="images/f2.png"
-                alt="Image 1"
+                alt="2"
                 className="img2 img-fluid mt-xl-5 pt-xl-4 mb-sm-3"
               ></img>
             </div>
@@ -33,14 +33,14 @@ function Furniture() {
             <div className="col-xl-4 ">
               <img
                 src="images/f3.png"
-                alt="Image 1"
+                alt="3"
                 className="img3 img-fluid "
               ></img>
             </div>
             <div className="col-xl-8 ">
               <img
                 src="images/f4.png"
-                alt="Image 1"
+                alt="4"
                 className="img4 img-fluid"
               ></img>
             </div>
@@ -51,7 +51,7 @@ function Furniture() {
         <div className="col-xl-3 mt-xl-5 pt-xl-5  mt-md-5 pt-md-5">
           <img
             src="images/f5.png"
-            alt="Image 1"
+            alt="5"
             className="img5 img-fluid"
           ></img>
         </div>
@@ -63,14 +63,14 @@ function Furniture() {
             <div className="col-xl-6 mt-xl-5 pt-xl-3">
               <img
                 src="images/f6.png"
-                alt="Image 1"
+                alt="6"
                 className="img6 img-fluid"
               ></img>
             </div>
             <div className="col-xl-6">
               <img
                 src="images/f7.png"
-                alt="Image 1"
+                alt="7"
                 className="img7 img-fluid"
               ></img>
             </div>
@@ -80,14 +80,14 @@ function Furniture() {
             <div className="col-xl-6">
               <img
                 src="images/f8.png"
-                alt="Image 1"
+                alt="8"
                 className="img8 img-fluid"
               ></img>
             </div>
             <div className="col-xl-6">
               <img
                 src="images/f9.png"
-                alt="Image 1"
+                alt="9"
                 className="img9 img-fluid"
               ></img>
             </div>

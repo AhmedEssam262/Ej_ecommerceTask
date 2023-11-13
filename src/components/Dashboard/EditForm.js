@@ -3,7 +3,7 @@ import styling from "./InputForm.module.css";
 import { Link } from "react-router-dom";
 import React, { useRef, useState, useEffect } from "react";
 import axios from "axios";
-import { getDownloadURL, listAll, ref, uploadBytes } from "firebase/storage";
+import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { storage } from "../../firebase";
 import { v4 } from "uuid";
 import AddSuccessMessage from "../UI/AddSuccessMessage";
@@ -20,8 +20,6 @@ function EditForm(props) {
   const [hasLocalImage, setHasLocalImage] = useState(false);
   const [imageUpload, setImageUpload] = useState(null);
   const [imageUrls, setImageUrls] = useState([]);
-  const imagesListRef = ref(storage, "images/");
-  const [myTimeOut, setMyTimeOut] = useState(true);
   const [myTimeOut2, setMyTimeOut2] = useState(true);
   const [myImage, setMyImage] = useState();
   const uploadFile = () => {
