@@ -57,6 +57,8 @@ function App() {
           <Route path="dashboard/add" element={<AddNewProduct />}></Route>
           <Route
             path="dashboard"
+            // content:contains the content of data,
+            // status:contains my status like(loading,error, or no error)
             element={<Dashboard data={{ content, status }} />}
           />
           <Route path="card" element={<Card />} />
