@@ -8,7 +8,7 @@ import { storage } from "../../firebase";
 import { v4 } from "uuid";
 import AddSuccessMessage from "../UI/AddSuccessMessage";
 import "../../App.css";
-function AddEdit(props) {
+function AddEditForm(props) {
   const linkRef = useRef();
   const [nameState, setNameState] = useState();
   const [priceState, setPriceState] = useState();
@@ -324,4 +324,4 @@ function AddEdit(props) {
     </div>
   );
 }
-export default AddEdit;
+export default AddEditForm;
