@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import AddEdit from "../components/Dashboard/AddEditForm";
 function EditProduct(props) {
   const params = useParams();
   const [products, setProducts] = useState([]);
@@ -30,7 +31,7 @@ function EditProduct(props) {
       <div className="section2-browse mt-4 p-3">
         <h1>Update your product</h1>
       </div>
-      <EditForm data={products} />
+      <AddEdit data={products} />
       <Copyrights />
     </div>
   );
